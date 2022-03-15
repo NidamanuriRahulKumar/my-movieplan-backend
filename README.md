@@ -25,7 +25,7 @@ NOTE:
 
 1. Please do remember to change the 'spring.datasource.url' property value in application-prod.properties file where
     your database is running.
-2.  Also do change the ip address of backend in the front-end application as well. For more details please check - https://github.com/JRiyaz/my-movie-plan.git
+2.  Also do change the ip address of backend in the front-end application as well. For more details please check - https://github.com/NidamanuriRahulKumar/my-movieplan-frontend.git
 
 **1.0 Go to official Amazon Web Services site**
 
