@@ -10,6 +10,6 @@ RUN mvn -f /home/app/pom.xml clean package
 # Package stage
 #
 FROM openjdk:11-jre-slim
-COPY --from=build /home/app/target/my-movieplan.jar /usr/local/lib/demo.jar
+COPY --from=build /home/app/target/my-movieplan.jar /usr/local/lib/my-movieplan.jar
 EXPOSE 9090
 ENTRYPOINT ["java","-jar","/usr/local/lib/my-movieplan.jar"]
